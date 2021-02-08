@@ -1,6 +1,12 @@
-const log = (input : string) => {
+export const log = (input : string) => {
     console.log(input)
 }
-alert("Hello World!!! son chau ts config");
 
-log('hi there')
+log('hi there 222')
+
+class A {
+    greeting = 'Hello World';
+  }
+  
+  console.log(new A().greeting);
+  
